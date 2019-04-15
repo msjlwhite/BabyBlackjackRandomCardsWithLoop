@@ -1,0 +1,123 @@
+        int pCard3;
+---------------------------------------
+//        int[] cards = new int[4];
+
+---------------------------------------
+
+
+//        cards = pCard1;
+
+//        for (i = 0; i < 2 ; i++) {
+//            cards[i] = scanner.nextInt();
+//            cards[i] = pCard2;
+//        }
+
+//        System.out.println(cards[i]);
+
+
+---------------------------------------
+
+//            pCard3 = ThreadLocalRandom.current().nextInt(1,10);
+//
+//            pCard3 = ThreadLocalRandom.current().nextInt(1,10);
+//            cards = (int[]) ThreadLocalRandom.current().nextInt(1,10);
+//            cards = (int[]) (Math.random()*10);
+
+---------------------------------------
+
+//                System.out.println(card);
+
+---------------------------------------
+
+//                System.out.println(size); --- WORKING
+
+//                int[] cards = new int [size];
+
+----------------------------------------
+
+//                    cards[size] = card; //Integer.valueOf(card);
+//                    pSum = pSum + cards[size];
+//                    size += i;
+
+//                    System.out.println(cards[size]);
+//                    System.out.println(size);
+//                    System.out.println("Your current cards are: " + pCard1 + " [?] " + cards[i]);
+
+------------------------------------------------
+
+                //WORKING
+//                for (int i = 0; i < size; i++) {
+//                    System.out.println(cards[size]);
+//                }
+//                System.out.println(cards[size]);
+
+------------------------------------------------
+
+
+
+//                System.out.println(size);
+
+//                System.out.println(cards[i]);
+//                System.out.println("Your current cards are: " + pCard1 + " [?] " + cards.length);
+
+//                System.out.println("Your current cards are: " + pCard1 + " [?] " + cards);//+ pCard3);
+//            pSum = pCard1 + pCard2 + pCard3;
+//            pSum = pSum + pCard3;
+
+//                System.out.println(cards[size]);
+//                System.out.print("Your current cards are: " + pCard1 + " [?] ");
+//                for (int i = 0; i< cards.length; i++)
+//                {
+//                    System.out.println(", " + cards[size]);
+//                }
+
+            System.out.print("Would you like to 'STAY' or 'HIT'? Please enter 'STAY' to keep your" +
+                    " current cards or 'HIT' to add a new one: ");
+            ans = scanner.nextLine().toString().toUpperCase();
+
+--------------------------------------------------------------------------
+
+        // adds the card amounts together to get the card amount total
+//        pSum = pCard1 + pCard2;
+//        System.out.println("Player, you were given " + pCard1 + " and " + pCard2 + ".");
+//        System.out.println("Player, you were given " + pCard1 + " and " + pCard2 + ".");
+
+//        System.out.println("Player, you were given " + pCard1 + " , " + pCard2 +" and ");// + cards[size]);
+//        for (int i = 0; i< cards.length; i++)
+//        {
+//            System.out.println(", " + cards[size]);
+//        }
+
+-----------------------------------------------------------
+//        System.out.println(Arrays.toString(cards));
+-----------------------------------------------------------
+
+            //WORKING!!
+//            size = size + 1;
+//                System.out.println(size);
+
+
+-----------------------------------------------------------for (int i = 0; i < size; i++)
+                                                                           {
+
+                                                                               System.out.println(size);
+
+                                                           //                    card = ThreadLocalRandom.current().nextInt(1,10);
+                                                           //                    card = (int) Math.round(Math.random()*10);
+                                                           //                    cards[i] = card;
+                                                           //                    System.out.println(cards[i]);
+
+                                                                               card = (int) Math.round(Math.random()*10);
+                                                                               hand[i] = card;
+                                                           //                    System.out.print(card + " ");
+                                                                               System.out.println("");
+                                                           //                    System.out.println(size);
+                                                                               System.out.println("");
+                                                                               System.out.print(hand[i] + " ");
+
+                                                                           }
+
+                                                                           //
+                                                           //                cards[size] = card;
+                                                           //                pSum = pSum + cards[size];
+                                                           //                System.out.println(cards[size]);
